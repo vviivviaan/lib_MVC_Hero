@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hero-mvc"
+version = "0.1.0"
+description = "Biblioteca MVC baseada no projeto FastAPI Database (Hero) com banco em memória"
+authors = [
+    { name = "Vivian Lacerda", email = "vivian@example.com" }
+]
+dependencies = ["fastapi", "pydantic"]
